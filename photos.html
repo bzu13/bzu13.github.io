@@ -1,0 +1,52 @@
+<html>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Belle Air Yearbook Content Uploader</title>
+	<body>
+		<div class="container-fluid">
+			<ul class="pagination justify-content-center">
+  				<li class="page-item"><a class="page-link" href="http://10.137.2.143/index.php"> About the Belle Air </a></li>
+  				<li class="page-item"><a class="page-link" href="http://10.137.2.143/content.php">Submit Your Story </a></li>
+  				<li class="page-item active"><a class="page-link" href="#"> Upload Your Photos </a></li>
+  				<li class="page-item"><a class="page-link" href="http://10.137.2.143/thanks.php"> Thank You </a></li>
+			</ul>
+	    </div>
+	    <div class="container-fluid">
+		
+		<h3>Use This form to tell us a little more about you and upload your photos: </h3>
+		<br>
+		</div>
+		<div class="container-fluid">
+		<form class="form-horizontal" action="runIndex.php" method="post" enctype="multipart/form-data">
+			<div class="form-group">
+				<label for="fname">First Name:</label><br>
+				<input type="text" class="form-control" id="fname" name="fname"><br>
+			</div>
+			<div class="form-group">
+				<label for="lname">Last Name:</label><br>
+				<input type="text" class="form-control" id="lname" name="lname"><br>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label><br>
+				<input type="text" class="form-control" id="email" name="email"><br>
+			</div>
+			<div class="form-group">
+				<label for="year">Class Year:</label><br>
+				<input type="text" class="form-control" id="year" name="year"><br>
+			</div>
+			<div class="form-group">
+				<label for="imagename">Image Name:</label><br>
+				<input type="text" class="form-control" id="imagename" name="imagename"><br>
+			</div>
+			<div class="form-group">
+				<label for="imagedescription">Image Description:</label><br>
+				<input type="text" class="form-control" id="imagedescription" name="imagedescription"><br>
+			</div>
+			<div class="form-group">
+				<label for="phototag">In this photo:</label><br>
+				<input type="text" class="form-control" id="phototag" name="phototag"><br>
+			</div>
+			<input type="submit" value="Next" id="submit" name="submit">
+		</form>
+  		</div>
+	</body>
+</html>
