@@ -1,1 +1,1 @@
-# bzu13.github.io
+This is the github pages version of my Senior Project.
