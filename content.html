@@ -13,7 +13,10 @@
 	 <div class="container-fluid">
 	 	<h3>Use This form to tell us a little more about you and submit your story: </h3>
 	 	<br>
-		<form class="form-horizontal" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeG9zsvTF0AMu6gI3uXPREqMTCp4mIQ-Ix30tfsRSMsBv17zw/formResponse" target=”_self” method=”POST” id=”mG61Hd”>
+	 	<script type="text/javascript">var submitted=false;</script>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+		onload="if(submitted) {window.location='thanks.html';}"></iframe>
+		<form class="form-horizontal" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeG9zsvTF0AMu6gI3uXPREqMTCp4mIQ-Ix30tfsRSMsBv17zw/formResponse" target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="submitted=true;">
 			<div class="form-group">
 				<label for="fname">First Name:</label><br>
 				<input type="text" class="form-control" id="fname" name="entry.1041998727"><br>
