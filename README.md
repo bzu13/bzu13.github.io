@@ -42,13 +42,14 @@
   * [Built With](#built-with)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
+* [Thank Yous](#thanks)
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Belle Air Yearbook Content Uploader Screen Shot][product-screenshot]](https://example.com)
+[![Belle Air Yearbook Content Uploader Screen Shot][product-screenshot]](https://bzu13.github.io/)
 
 
 
@@ -64,7 +65,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://bzu13.github.io/](https://bzu13.github.io/)
 
 
 
@@ -72,10 +73,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 ## Acknowledgements
 
 * https://gist.github.com/erajanraja24/8d8cd08a86873d8204734bef32fa54a2#file-upload-files-from-blog-or-website-to-google-drive 
-* https://github.com/othneildrew/Best-README-Template
 * https://www.developerdrive.com/add-google-forms-static-site/
+* https://github.com/othneildrew/Best-README-Template
 
 
+<!-- THANKS -->
+## Thanks
+
+* Ms. Obermyer, my Professor for this Senior Projects Course
+* Sierra Thompson, my buddy team 
+* My Testers (couldn't have done it without you!) 
 
 
 
