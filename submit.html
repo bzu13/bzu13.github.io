@@ -3,6 +3,21 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.iframe-container{
+			overflow:hidden;
+			padding-bottom:56.25%;
+			position:relative;
+			height:0;
+		}
+		.iframe-container iframe{
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+			position:absolute;
+		}
+	</style>
 	<title>Belle Air Yearbook Content Uploader</title>
 	</head>
 <body>
@@ -38,10 +53,13 @@
 	<h1>Next, upload your photo!</h1>
 	 <div class="form-group">
 		<!-- <a href="https://script.google.com/a/villanova.edu/macros/s/AKfycbwPSOfLvFqEPGi_UoCt4JW8LWGi2EN_LNu7Mfa9BHGf/exec"> <button type="button" class="btn btn-primary">Choose Photo
-		</button> </a> -->
-		<iframe src="https://script.google.com/a/villanova.edu/macros/s/AKfycbwPSOfLvFqEPGi_UoCt4JW8LWGi2EN_LNu7Mfa9BHGf/exec" title="Choose Image"></iframe>
-	</div>
+		</button> </a> 
+		<iframe src="https://script.google.com/a/villanova.edu/macros/s/AKfycbwPSOfLvFqEPGi_UoCt4JW8LWGi2EN_LNu7Mfa9BHGf/exec" title="Choose Image"></iframe> -->
 	
+	<div id="iframe-container" class="z-depth-1-half iframe-container" style="height: 500px">
+  		<iframe src="https://script.google.com/a/villanova.edu/macros/s/AKfycbwPSOfLvFqEPGi_UoCt4JW8LWGi2EN_LNu7Mfa9BHGf/exec" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	</div>
 	<div class="form-group">
 		<p style="color:red;">*By checking this box, I agree that this content is mine and that the Belle Air Yearbook staff is allowed to use my content in their publication of the Belle Air Yearbook.</p>
 	</div>
