@@ -100,4 +100,4 @@ Project Link: [https://bzu13.github.io/](https://bzu13.github.io/)
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot]: /WebsiteScreenshot.png
+[product-screenshot]: /PreviewScreenshot.png
