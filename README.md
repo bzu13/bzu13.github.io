@@ -29,7 +29,7 @@
     <a href="https://github.com/bzu13/bzu13.github.io"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bzu13/bzu13.github.io">*INSERT DEMO VIDEO HEREView Demo</a>
+    <a href="https://drive.google.com/file/d/15dVayYwQP2M72sM72EnjDJNZNInKuytF/view?usp=sharing">View Demo</a>
   </p>
 </p>
 
